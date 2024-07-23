@@ -1,0 +1,66 @@
+<html>
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Weather App</title>
+<style>
+*{
+box-sizing:border-box;
+}
+body{
+display:flex;
+justify-content:center;
+align-items:center;
+height:95vh;
+}
+form{
+display:flex;
+flex-direction:column;
+padding:40px 30px;
+box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.5) 0px 1px 3px -1px;
+background:url('./assets/sun.png');
+background-repeat:no-repeat;
+background-size:400px 200px;
+background-position:top;
+}
+h2{
+background:transparent;
+color:white;
+padding:10px;
+}
+p{
+font-size:20px;
+font-weight:500;
+letter-spacing:1.5;
+
+}
+input{
+border:0;
+outline:0;
+border-bottom:2px solid black;
+font-size:15px;
+}
+button{
+width:fit-content;
+font-size:17px;
+letter-spacing:1.5;
+background:orange;
+color:white;
+font-weight:600;
+border:0;
+padding:5px;
+}
+</style>
+</head>
+<body>
+<form>
+<h2>WEATHER FORECAST</h2>
+<p>City</p>
+<input type="text" id="city" placeholder="Enter city..."/>
+<p>State</p>
+<input type="text" i="state" placeholder="Enter state..."/>
+<button style="margin-top:20px;">Enter</button>
+<p>Temperature:</p>
+</form>
+</body>
+</html>
